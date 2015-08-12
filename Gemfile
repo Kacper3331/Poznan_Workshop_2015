@@ -18,6 +18,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'dotenv-rails'
 gem 'gretel'
+gem 'devise'
 
 group :development do
   gem 'better_errors'
@@ -30,6 +31,7 @@ end
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-rails'
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
