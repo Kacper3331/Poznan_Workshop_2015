@@ -3,7 +3,8 @@ Rails.application.routes.draw do
     get :subjects
   end
 
-  get 'report/subjects'
+  get 'reports/subjects'
+
 
   devise_for :users
 
