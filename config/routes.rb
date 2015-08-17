@@ -5,6 +5,9 @@ Rails.application.routes.draw do
 
   get 'reports/subjects'
 
+  resources :teachers do
+    resources :subjects
+  end
 
   devise_for :users
 
