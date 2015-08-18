@@ -14,7 +14,7 @@ Rails.application.routes.draw do
   get 'visitors/index'
 
   devise_scope :user do
-    root "devise/sessions#new"
+    root "visitors#index"
   end
 
 end
