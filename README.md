@@ -9,4 +9,4 @@ Simple application for managing school subjects, teaching staff and students.
 
 ## Heroku link to Application
 
-This is link to live version of this application: to_add.
+This is link to live version of this application: [app_link](https://vast-bastion-5230.herokuapp.com/users/sign_in).
