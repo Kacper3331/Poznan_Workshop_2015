@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     get :subjects
   end
 
-  get 'reports/subjects'
+  get 'reports/subjects', as: 'report_subjects'
 
   resources :teachers do
     resources :subjects
