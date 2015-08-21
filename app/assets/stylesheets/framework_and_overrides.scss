@@ -10,6 +10,7 @@ $navbar-default-bg: $lime-green;
 // import the CSS framework
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "bootstrap-datetimepicker";
 @import "utilities/mixins";
 
 // z-indices
