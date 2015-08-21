@@ -13,7 +13,7 @@ describe StudentDecorator do
     it { is_expected.to eq 'John Smith' }
   end
 
-  describe "#birt_date" do
+  describe "#birth_date" do
     subject { student.decorate.birth_date }
     it { is_expected.to eq '1999-12-12' }
   end
