@@ -24,6 +24,13 @@ feature 'User edits student' do
     expect(page).to have_content 'Marcin'
   end
 
+  scenario 'with valid date input' do
+    fill_in 'Birthdate', with: '12/12/1999'
+    click_button 'Update Student'
+    expect(page).to have_content 'Student has been updated!'
+    expect(page).to have_content '1999-12-12'
+  end
+
   scenario 'with invalid input' do
     fill_in 'First name', with: ''
     click_button 'Update Student'
