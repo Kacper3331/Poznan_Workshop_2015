@@ -19,6 +19,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'dotenv-rails'
 gem 'gretel'
 gem 'devise'
+gem 'momentjs-rails', '~> 2.9',  :github => 'derekprior/momentjs-rails'
+gem 'datetimepicker-rails',
+  github: 'zpaulovics/datetimepicker-rails',
+  branch: 'master',
+  submodules: true
 
 group :development do
   gem 'better_errors'
